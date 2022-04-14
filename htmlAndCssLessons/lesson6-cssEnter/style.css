@@ -1,0 +1,33 @@
+/* ul *{
+    color: red;
+} */
+
+/*h1{
+    color:black;
+    background: green;  
+}*/
+
+/* ul li{
+    color: red;
+} */
+/* 
+ul>li:nth-child(even),ol>li:nth-child(even) {
+  color: red;
+} */
+
+/* ul>li:nth-child(3n-1) {
+    color: red;
+  } */
+
+/* #text-one{
+    color: red;
+}
+
+
+#text-two{
+    color: red;
+} */
+
+/* .my-text{
+    color: green;
+} */

@@ -1,0 +1,14 @@
+.text{
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    font-weight: bolder;
+    font-style: italic;
+    /* line-height: 30px;
+    letter-spacing: 30px; */
+    /* text-transform: lowercase; */
+    /* text-transform: capitalize; */
+    /* text-transform: uppercase; */
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    text-align: justify;
+}
