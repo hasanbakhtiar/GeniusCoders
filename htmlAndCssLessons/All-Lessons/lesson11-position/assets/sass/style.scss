@@ -1,0 +1,59 @@
+header{
+    position: sticky;
+    top: 100px;
+    bottom: 0;
+    // position: fixed;
+    // z-index: 3;
+    width: 100%;
+    height: 100px;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    ul{
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        li{
+            color: #fff;
+        }
+    }
+}
+
+
+// .a{
+//     position: absolute;
+//     z-index: 2;
+
+//     width: 100%;
+//     height: 200vh;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+
+//     .con-box{
+//         width: 100%;
+//         height: 50vh;
+//         background-color: black;
+//         position: relative;
+//         .main-box{
+//             width: 70%;
+//             height: 30vh;
+//             background-color: rgb(0, 85, 34);
+//             .box{
+//                 position: absolute;
+//                 right: 100px;
+//                 bottom: 10px;
+//                 width: 100px;
+//                 height: 100px;
+//                 background-color: red;
+//             }
+//         }
+//     }
+// }
+
+
+.b{
+    width: 100%;
+    height: 100vh;
+}
