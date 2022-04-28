@@ -1,0 +1,55 @@
+.hero{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .hero-con{
+        width: 80%;
+        height: 80vh;
+        display: flex;
+        align-items: center;
+            .left-hero{
+                width: 50%;
+                height: 70vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .text-con{
+                    width: 100%;
+                    height: 50vh;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: space-between;
+                    .line{
+                        width: 70px;
+                        height: 3px;
+                        background-color: black;
+                    }
+                }
+            }
+            .right-hero{
+                transform: translate(-28px,-40px);
+                width: 50%;
+                height: 70vh;
+                  .hero-img-bg{
+                    width: 130%;
+                    height: 115vh;
+                    background-image: url('../img/header.jpg');
+                    clip-path: polygon(20% 0%, 100% 0, 100% 100%, 0 63%);
+
+                    .hero-img{
+                        width: 100%;
+                        height: 116vh;
+                        background-color: rgba($color: #635CDB, $alpha: .5);
+                        clip-path: polygon(20% 0%, 100% 0, 100% 100%, 0 63%);
+
+                    }
+                  }
+            }
+    }
+}

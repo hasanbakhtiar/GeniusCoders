@@ -1,0 +1,41 @@
+
+
+header {
+  position: relative;
+  z-index: 9;
+
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  nav {
+    width: 80%;
+    @include between();
+
+    menu {
+      width: 50%;
+      @include between();
+      ul {
+        width: 100%;
+        @include around();
+        li{
+            a{
+                text-transform: capitalize;
+                text-decoration: none;
+            }
+        }
+      }
+    }
+
+    .btn-con{
+        .left-btn,.right-btn{
+            border: 1px solid #635CDB;
+            padding: 5px 20px;
+            border-radius: 10px;
+            border-top-right-radius: 0px;
+        }
+      
+    }
+  }
+}

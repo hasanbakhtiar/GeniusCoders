@@ -1,0 +1,11 @@
+@mixin between() {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  @mixin around() {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
