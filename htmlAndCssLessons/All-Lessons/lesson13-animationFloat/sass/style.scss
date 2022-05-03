@@ -1,0 +1,124 @@
+p{
+    span:nth-child(1){
+        color: red;
+        animation: info1 4s infinite;
+        opacity: 0;
+    }
+
+    span:nth-child(2){
+        color: rgb(13, 255, 0);
+        animation: info2 4s infinite;
+        animation-delay: .5s;
+
+    }
+}
+@keyframes info1 {
+    0%{opacity: 0;}
+    50%{opacity: 1;}
+    100%{opacity: 0;}
+}
+@keyframes info2 {
+    0%{opacity: 0;}
+    50%{opacity: 1;}
+    100%{opacity: 0;}
+}
+
+
+
+
+// @import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Water+Brush&display=swap');
+
+// .a{
+//     font-size: 100px;
+//     animation: firlan 4s linear infinite;
+    
+// }
+// @keyframes firlan {
+//     0%{transform: rotate(0deg);}
+//     50%{transform: rotate(360deg);}
+//     100%{transform: rotate(0deg);}
+// }
+
+
+// .notification-con {
+//     margin-top: 10px;
+//   width: 70%;
+//   height: 50px;
+//   background-color: #333;
+//   border-radius: 10px;
+//   display: flex;
+//   align-items: center;
+//   padding: 5px;
+//   .notification-text {
+//     font-family: 'Water Brush', cursive;
+//     width: 95%;
+//     color: #fff;
+//   }
+//   .notification-alert{
+//     i{
+//         font-size: 40px;
+//         color: rgb(209, 250, 0);
+//         animation: alert 2s 2;
+//     }
+//     @keyframes alert {
+//         0%{font-size: 40px;}
+//         50%{font-size: 20px;}
+//         100%{font-size: 40px;}
+//     }
+//   }
+// }
+
+
+
+
+
+
+
+
+
+
+// .new{
+//     p{
+//         color: #000;
+//         animation: yanardoner 2s infinite;
+//     }
+//     @keyframes yanardoner {
+//         0%{color: #000;}
+//         50%{color: red;}
+//         100%{color: #000;}
+//     }
+// }
+
+// .box{
+//     position: relative;
+//     width: 100px;
+//     height: 100px;
+//     background-color: red;
+//     // animation-name: coni;
+//     // animation-duration: .5s;
+//     // animation-iteration-count: infinite;
+//     animation:  coni 5s infinite;
+// }
+
+// // @keyframes coni{
+// //     0%{left: 0;top: 0; background-color: red; border: none;}
+// //     25%{left: 500px;top: 0; background-color: rgb(119, 255, 0); border: 4px solid #000;}
+// //     50%{left: 500px;top: 500px; background-color: rgb(149, 0, 255); border:  2px solid rgb(255, 0, 0);}
+// //     75%{left: 0;top: 500px; background-color: rgb(255, 162, 0); border:  9px solid rgb(0, 13, 255);}
+// //     100%{left: 0;top: 0; background-color: rgb(255, 0, 153); border:  1px solid rgb(255, 0, 0);}
+// // }
+
+// // @keyframes coni{
+// //     from{left:0}
+// //     to{left:200px}
+// // }
+
+// // img{
+// //     // float: right;
+// //     // float: left;
+// // }
+// // .text3{
+// //     // clear: left ;
+// //     // clear: right;
+// //     // clear: both;
+// // }
