@@ -1,0 +1,30 @@
+@media (max-width:775px){
+
+    header{
+        display: flex;
+        justify-content: space-around;
+        nav,.search-btn{
+            display: none;
+        }
+       .kifte{
+           display: block;
+       }
+    }
+
+    .hero{
+        height: 200vh;
+        .hero-box-con{
+            height: 170vh;
+            display: flex;
+            flex-direction: column;
+            .left-text{
+                h1{
+                    font-size: 50px;
+                }
+                p{
+                    margin-top: 70px;
+                }
+            }
+        }
+    }
+}
