@@ -1,0 +1,70 @@
+html{
+    overflow-x: hidden
+}
+@import 'hero';
+@import 'sec-two';
+@import 'media';
+
+// h1:after{
+//     content: "Salam";
+//     width: 100px;
+//     height: 100px;
+//     background-color: red;
+// }
+
+// h1::before{
+//     content: "Salam";
+//     width: 100px;
+//     height: 100px;
+//     background-color: red;
+// }
+
+// .box{
+//     position: relative;
+//     width: 100px;
+//     height: 300px;
+//     background-color: red;
+   
+   
+// }
+
+// .box:after{
+//     content: "";
+//     position: absolute;
+//     width: 100%;
+//     height: 0px;
+//     background-color: rgba($color: #000000, $alpha: .5);
+//     top: 0;
+//     // left: 0;
+//     transition: 1s;
+// }
+// .box:hover:after{
+//     height: 100%;
+//     transition: 1s;
+// }
+
+
+// .box{
+//     position: relative;
+//     width: 100px;
+//     height: 300px;
+//     background-color: red;
+//    &::after{
+//     content: " ";
+//     position: absolute;
+//     width: 100%;
+//     height: 0px;
+//     background-color: rgba($color: #000000, $alpha: .5);
+//     top: 0;
+//     // left: 0;
+//     transition: 1s;
+//    }
+//    &:hover:after{
+//     height: 100%;
+//     transition: 1s;
+// }
+// }
+
+
+
+
