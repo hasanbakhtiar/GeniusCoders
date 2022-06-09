@@ -1,0 +1,29 @@
+nav{
+    width: 15%;
+    height: 40vh;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    ul{
+        width: 50%;
+        height: 20vh;
+        li{
+            list-style: none;
+            a{
+                color: #eee;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.hide{
+    transition: 1s;
+    transform: translateX(-200px);
+}
+
+.show{
+    transition: 1s;
+    transform: translateX(0px);
+}
