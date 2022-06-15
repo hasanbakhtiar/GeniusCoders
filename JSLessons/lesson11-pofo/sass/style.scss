@@ -1,0 +1,32 @@
+.main-con{
+    position: relative;
+    .top-nav{
+        width: 100%;
+        position: absolute;
+        top: 0;
+    }
+    .full-menu{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+    }
+    .hero{
+        width: 100%;
+        height: 100vh;
+        background-color: antiquewhite;
+    }
+}
+
+
+#zminus{
+    z-index: -1;
+    opacity: 0;
+    transition: 1s;
+}
+#zplus{
+    transition: 1s;
+    z-index: 3;
+    opacity: 1;
+}
