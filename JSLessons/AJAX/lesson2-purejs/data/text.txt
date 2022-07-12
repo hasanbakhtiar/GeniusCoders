@@ -1,0 +1,5 @@
+AJAX is a developer's dream, because you can:<br>
+<br>
+Read data from a web server - after the page has loaded<br>
+Update a web page without reloading the page<br>
+Send data to a web server - in the background<br>
