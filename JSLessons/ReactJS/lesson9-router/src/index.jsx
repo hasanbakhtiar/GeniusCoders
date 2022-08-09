@@ -1,0 +1,15 @@
+import React, { Component } from "react";
+import ReactDOM from "react-dom/client";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
+import AppRouter from "./routers/AppRouter";
+import './sass/style.css';
+// import BasicRouterv6 from "./examples/BasicRouterv6";
+
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+  <React.StrictMode>
+    <AppRouter />
+  </React.StrictMode>
+);
