@@ -17,6 +17,8 @@ export const blogReducer = (state = blogState, action) => {
               ...b,
               ...action.update
             }
+          }else{
+            return b
           }
         })
     default:

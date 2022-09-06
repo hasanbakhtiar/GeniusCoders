@@ -20,7 +20,7 @@ store.subscribe(()=>{
 
 // store.dispatch(addBlog({img:"https://cdn.britannica.com/84/73184-004-E5A450B5/Sunflower-field-Fargo-North-Dakota.jpg",title:"Asus new laptop",desc:"this laptop is very good."}));
 
-store.dispatch(addBlog({title:"Asus new laptop",desc:"this laptop is very good."}));
+store.dispatch(addBlog({img:"https://irshad.az/resized/fit540x550/center/products/78037/kfs2.jpg",title:"Asus new laptop",desc:"this laptop is very good."}));
 
 store.dispatch(addBlog({title:"Asus new laptop",desc:"this laptop is very good."}));
 

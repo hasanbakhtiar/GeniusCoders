@@ -7,7 +7,7 @@ const Dashboard = props => {
   return (
     <div className='container mt-5'>
         <Link className='btn btn-primary' to='/add'>Add</Link>
-        <table class="table">
+        <table className="table">
   <thead>
     <tr>
       <th scope="col">#</th>
