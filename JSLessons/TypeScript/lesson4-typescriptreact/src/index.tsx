@@ -1,26 +1,32 @@
 import React,{useEffect, useState} from 'react';
 import ReactDOM from 'react-dom/client';
 import axios from 'axios';
-
-const DataList = (props:any) =>{
-  return(
-    <li>{props.name}</li>
-  )
+type DataFetch ={
+  fechdata: any
 }
+
 const App =()=>{
-  const [data,setData] = useState();
+  const [info,setInfo] = useState<DataFetch>();
   useEffect(()=>{
   axios.get('https://restcountries.com/v3.1/all')
-  .then((res:any)=>setData(res.data[0].name.common))
-  // .then((res:any)=>console.log(res.data[0].name.common))
+  .then((res:any)=>setInfo({fechdata:res.data}))
   .catch(err=>console.log(err))
+//   .then((res:any)=>{
+//     res.data.map((fd:any)=>{
+// console.log(fd.name);
+
+//     })
+//   })
 
 },[])
   return(
+ <div>
   <ul>
-   
-    <DataList name={data}/>
+    {
+      info?.fechdata.map((fd:any)=>(<li key={fd.id}>{fd.name}</li>))
+    }
   </ul>
+ </div>
   )
 }
 const root = ReactDOM.createRoot(
